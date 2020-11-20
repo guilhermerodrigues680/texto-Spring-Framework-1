@@ -45,6 +45,8 @@ curl https://start.spring.io/
 - `./mvnw package` -> Compila e empacota o projeto usando o empacotamento escolhido, por exemplo, em JAR. E salva na pasta de compilação do projeto (target).
 - `./mvnw clean package` -> Limpa a pasta de compilacao do projeto e em seguida compila e empacota o projeto.
 - `java -jar app-version.jar` -> Executa a aplicação empacotada usando o JRE.
+- `./mvnw spring-boot:run -Dspring-boot.run.arguments="--firstName=Sergey --lastName=Kargopolov"` -> Passando argumentos quando o projeto é iniciado pelo maven.
+- `java -jar app-version.jar --firstName=Sergey --lastName=Kargopolov` -> Passando argumentos quando o projeto é executado pelo JRE.
 
 ``
 
@@ -58,6 +60,8 @@ Uma ótima IDE para desenvolvimento
 
 - Para desenvolvimento JVM e Android
 - Open source gratuito
+- Completação de código (IntelliSense) nativo e com dependencia do Maven e Gradle
+- DEBUG de aplicações
 
 A Community Edition é open source, licenciada no Apache 2.0. Projetos como o Android e o Swift usam o Apache 2.0 e, portanto, você está em boa companhia. Ela também pode ser usada para desenvolvimento comercial.
 
