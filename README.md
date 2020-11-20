@@ -4,18 +4,21 @@
 
 [spring.io](https://spring.io/)
 
+Site do framework, contém informações, guias e documentação.
+
 ---
 
 ### Spring Initializr
 
 [start.spring.io](https://start.spring.io/)
 
+Site para gerar uma aplicação com Spring Boot.
+
 - Spring Boot
 
 #### Spring e Spring Boot
 
 Spring é um framework usado no java que resolve diversos problemas utilizando técnicas, como injeção de dependência, inversão de controle,contêiner e etc… No caso, para implementar ele em seu projeto é necessário fazer diversas configurações, por exemplo: se quisemos fazer com que o spring converse com jpa e hibernate, há inúmeras configurações que devemos fazer. Com este problema em mente surgiu o spring boot que venho para resolver as múltiplas configurações básicas necessárias, você especifica o que você quer em seu projeto e ele já monta com tudo configurado.
-
 
 #### Spring Boot e Dependecias
 
