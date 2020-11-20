@@ -50,6 +50,19 @@ curl https://start.spring.io/
 
 ---
 
+### IntelliJ IDEA Community Edition
+
+[www.jetbrains.com/pt-br/idea](https://www.jetbrains.com/pt-br/idea/)
+
+Uma ótima IDE para desenvolvimento
+
+- Para desenvolvimento JVM e Android
+- Open source gratuito
+
+A Community Edition é open source, licenciada no Apache 2.0. Projetos como o Android e o Swift usam o Apache 2.0 e, portanto, você está em boa companhia. Ela também pode ser usada para desenvolvimento comercial.
+
+---
+
 ### Parte 1 - Projeto com Spring Boot sem dependencias
 
 Projeto default do Spring Boot
