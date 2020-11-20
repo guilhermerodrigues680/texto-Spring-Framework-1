@@ -40,8 +40,59 @@ curl https://start.spring.io/
 
 ### Parte 1 - Projeto com Spring Boot sem dependencias
 
+Projeto default do Spring Boot
+
+[start.spring.io](https://start.spring.io/)
+
+```sh
+curl https://start.spring.io/starter.zip -d baseDir=demo -o demo.zip
+
+# ou passando todos os paramentros
+
+curl https://start.spring.io/starter.zip \
+    -d applicationName=DemoApplication \
+    -d artifactId=demo \
+    -d baseDir=demo \
+    -d bootVersion=2.4.0 \
+    -d description="Demo project for Spring Boot" \
+    -d groupId=com.example \
+    -d javaVersion=11 \
+    -d language=java \
+    -d name=demo \
+    -d packageName=com.example.demo \
+    -d packaging=jar \
+    -d type=maven-project \
+    -d version=0.0.1-SNAPSHOT \
+    -o demo.zip
+```
+
 ---
 
 ### Parte 2 - Projeto com Spring Boot e Spring Web
+
+[start.spring.io](https://start.spring.io/)
+
+```sh
+curl https://start.spring.io/starter.zip -d dependencies=web -d baseDir=demo -o demo.zip
+
+# ou passando todos paramentros
+
+curl https://start.spring.io/starter.zip \
+    -d dependencies=web \
+    -d applicationName=WebappApplication \
+    -d artifactId=webapp \
+    -d baseDir=webapp \
+    -d bootVersion=2.4.0 \
+    -d description="Webapp com Spring Boot" \
+    -d groupId=com.example \
+    -d javaVersion=11 \
+    -d language=java \
+    -d name=webapp \
+    -d packageName=com.example.webapp \
+    -d packaging=jar \
+    -d type=maven-project \
+    -d version=0.0.1-SNAPSHOT \
+    -o webapp.zip
+```
 
 ---
