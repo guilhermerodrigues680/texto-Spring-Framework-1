@@ -38,6 +38,18 @@ curl https://start.spring.io/
 
 ---
 
+### Comandos uteis do Maven e Java
+
+- `./mvnw spring-boot:run` ->  Inicia a aplicação do Spring Boot.
+- `./mvnw clean` -> Limpa a pasta de compilação do projeto (target)
+- `./mvnw package` -> Compila e empacota o projeto usando o empacotamento escolhido, por exemplo, em JAR. E salva na pasta de compilação do projeto (target).
+- `./mvnw clean package` -> Limpa a pasta de compilacao do projeto e em seguida compila e empacota o projeto.
+- `java -jar app-version.jar` -> Executa a aplicação empacotada usando o JRE.
+
+``
+
+---
+
 ### Parte 1 - Projeto com Spring Boot sem dependencias
 
 Projeto default do Spring Boot
